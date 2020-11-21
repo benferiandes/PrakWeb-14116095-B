@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<h1>Data Mahasiswa Sesat</h1>
+<h1>===============================</h1>
+<h1>Tambah Data</h1>
+<form action="prosestambah.php" method="post">
+	NRP			: <input type="text" name="nrp" size="35" maxlength="50"> <br><br>
+	Nama		: <input type="text" name="nama" size="35" maxlength="50"> <br><br>
+	Alamat 		: <input type="text" name="alamat" size="35" maxlength="50"> <br> <br>
+    Jurusan 	: <select name="jurusan">
+		    		<option value="Eltekro">Teknik Eltekro</option>
+					<option value="Informatika">Teknik Informatika</option>
+					<option value="Geofisika">Teknik Geofisika</option>
+					<option value="Geologi">Geologi</option>
+				  </select> <br>
+				  <input type="submit" name="tambah" value="Tambah">
+</form>
+
+<br>
+<h1></h1>
+<h1>Cari Data</h1>
+<form action="prosessearch.php" method="post">
+	Nama		: <input type="text" name="nama" size="35" maxlength="50">
+	<input type="submit" name="cari" value="Cari Data">
+</form>
+<br>
+<h1></h1>
+
+</body>
+</html>
