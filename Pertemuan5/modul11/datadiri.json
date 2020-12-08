@@ -1,0 +1,17 @@
+{
+    "nama": {
+        "awal": "Benjamin",
+        "akhir": "Feriandes"
+    },
+    "jenisKelamin": "Laki-laki",
+    "saudara": "Frans",
+    "orangtua": {
+        "ayah": "Mr.Silalahi",
+        "ibu": "Mrs.Panggabean"
+    },
+    "hobby": "Main Game",
+    "alamat": "Jati Agung",
+    "sosialMedia": {
+        "facebook" : "Ben Feriandes"
+    }
+}
